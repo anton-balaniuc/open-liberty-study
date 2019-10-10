@@ -20,3 +20,7 @@ README.html
 
 # Zip files
 *.zip
+
+#idea
+.idea
+*.iml

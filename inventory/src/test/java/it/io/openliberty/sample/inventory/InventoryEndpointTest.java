@@ -30,7 +30,7 @@ public class InventoryEndpointTest {
     public static void oneTimeSetup() {
         port = System.getProperty("liberty.test.port");
         baseUrl = "http://localhost:" + port + "/";
-        systemUrl = "http://localhost:" + (Integer.valueOf(port) - 1)  + "/";
+        systemUrl = "http://localhost:" + System.getProperty("liberty.test.system.port")  + "/";
 
     }
 

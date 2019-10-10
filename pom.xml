@@ -260,6 +260,7 @@
                                 </includes>
                                 <systemPropertyVariables>
                                     <liberty.test.port>${http.port}</liberty.test.port>
+                                    <liberty.test.system.port>${system.port}</liberty.test.system.port>
                                     <war.name>${app.name}</war.name>
                                 </systemPropertyVariables>
                             </configuration>

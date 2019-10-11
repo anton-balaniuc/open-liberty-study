@@ -28,6 +28,11 @@
           allowedMethods="GET"
           />
 
+    <cors domain="/metricsOverHTTP"
+          allowedOrigins="http://localhost:9081"
+          allowedMethods="GET"
+          />
+
     <cors domain="/health"
           allowedOrigins="http://localhost:9081"
           allowedMethods="GET"
